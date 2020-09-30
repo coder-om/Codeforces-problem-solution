@@ -1,8 +1,4 @@
-/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
-  Name:- OMHARI 
-  Institution:- UNIVERSIT OF CALCUTTA(INFORMATION TECHNOLOGY)
-  Email:- omharicu@gmail.com
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
 #include<bits/stdc++.h>
 using namespace std; 
 
@@ -37,7 +33,7 @@ using namespace std;
 const ll mod = 1e9+7;
 ll __gcd(ll a, ll b){if(a==0) return b; return __gcd(b%a, a);}
 
-void solve()
+int main() 
 {
     ll n;
     cin>>n;
@@ -45,9 +41,6 @@ void solve()
     For(i, 0, n)
     {
         cin>>v[i];
-        // if(i==0) continue;
-
-        // v[i]=v[i]+v[i-1];
     }
     ll cnt=0, pre=0;
     set<ll> s;
@@ -55,7 +48,6 @@ void solve()
     For(i, 0, n)
     {
         pre+=v[i];
-        //cout<<pre<<el;
         if(s.find(pre)!=s.end())
         {
             cnt++;
@@ -67,22 +59,5 @@ void solve()
     }
 
     cout<<cnt;
-}
-
-int main() 
-{
-    ios_base::sync_with_stdio(false);
-    cin.tie(NULL);
-    cout.tie(NULL);
-
-    #ifndef ONLINE_JUDGE
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
-    #endif
-    /***************-Code starts from here-***************/
-    // int t;
-    // cin>>t;
-    // while(t--)
-    solve();
     return 0; 
 }
