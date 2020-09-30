@@ -42,12 +42,12 @@ void solve()
     int n, m;
     cin>>n>>m;
     pii a, b;
-    bool ist=false;
+    int ist=0;
     For(i, 0, n)
     {
         cin>>a.F>>a.S>>b.F>>b.S;
         if(a.S==b.F)
-        ist=true;
+        ist=1;
     }
     if(!ist || m%2)
     cout<<"NO\n";
