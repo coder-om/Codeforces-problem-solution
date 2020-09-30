@@ -1,8 +1,4 @@
-/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
-  Name:- OMHARI 
-  Institution:- UNIVERSIT OF CALCUTTA(INFORMATION TECHNOLOGY)
-  Email:- omharicu@gmail.com
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
 #include<bits/stdc++.h>
 using namespace std; 
 
