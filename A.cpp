@@ -31,7 +31,6 @@ using namespace std;
 #define Forr(i, a, b)   for(int i=a; i>=b; i--)
 #define PI          	3.1415926535897932384626
 const ll mod = 1e9+7;
-ll __gcd(ll a, ll b){if(a==0) return b; return __gcd(b%a, a);}
 
 void solve()
 {
@@ -53,12 +52,6 @@ int main()
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
     cout.tie(NULL);
-
-    #ifndef ONLINE_JUDGE
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
-    #endif
-    /***************-Code starts from here-***************/
     int t;
     cin>>t;
     while(t--)
