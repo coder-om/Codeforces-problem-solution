@@ -57,7 +57,7 @@ void solve()
     For(i, 0, 3) cin>>a[i];
     For(i, 0, 3) cin>>b[i];
 
-    ll mn=INT_MAX, mx=0, t;
+    ll mn=10000000000, mx=0, t;
     vll p=a, q=b;
     t=min(a[0], b[1]);
     mx+=t;
