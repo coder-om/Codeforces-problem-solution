@@ -38,7 +38,7 @@ int main()
     ll n;
     cin>>n;
     vll v(n);
-    For(i, 0, n)
+    For(auto i : v)
     {
         cin>>v[i];
     }
