@@ -1,8 +1,3 @@
-/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
-  Name:- OMHARI 
-  Institution:- UNIVERSIT OF CALCUTTA(INFORMATION TECHNOLOGY)
-  Email:- omharicu@gmail.com
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 #include<bits/stdc++.h>
 using namespace std; 
 
@@ -50,8 +45,9 @@ void solve()
         ist=1;
     }
     if(!ist || m%2)
-    cout<<"NO\n";
-    else cout<<"YES\n";
+        cout<<"NO\n";
+    else 
+       cout<<"YES\n";
 }
 
 int main() 
@@ -61,8 +57,8 @@ int main()
     cout.tie(NULL);
 
     #ifndef ONLINE_JUDGE
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
+      freopen("input.txt", "r", stdin);
+      freopen("output.txt", "w", stdout);
     #endif
     /***************-Code starts from here-***************/
     int t;
