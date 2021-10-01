@@ -1,4 +1,3 @@
-
 #include<bits/stdc++.h>
 using namespace std; 
 
@@ -30,6 +29,7 @@ using namespace std;
 #define For(i, a, b)    for(int i=a; i<b; i++)
 #define Forr(i, a, b)   for(int i=a; i>=b; i--)
 #define PI          	3.1415926535897932384626
+template<class T> inline T ceil(T a, T b){return (a + b - 1)/b;}
 const ll mod = 1e9+7;
 
 void solve()
@@ -37,12 +37,12 @@ void solve()
     int n, x;
     cin>>n>>x;
     n-=2;
-    int cnt=1;
-    while(n>0)
-    {
-        cnt++;
-        n-=x;
-    }
+    int cnt=1+ceil(n, x);
+//     while(n>0)
+//     {
+//         cnt++;
+//         n-=x;
+//     }
     cout<<cnt<<el;
 
 }
